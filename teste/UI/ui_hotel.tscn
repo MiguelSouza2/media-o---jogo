@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://lnyqw8k5k1tu"]
+
+[ext_resource type="Script" path="res://scripts/UI/UI_Hotel.gd" id="1_a12a2"]
+[ext_resource type="FontFile" uid="uid://ccnxtw6tibbp1" path="res://assets/TrueType (.ttf)/Kaph-Regular.ttf" id="2_goasj"]
+[ext_resource type="FontFile" uid="uid://dqm0eleqjoa80" path="res://assets/TrueType (.ttf)/Kaph-Italic.ttf" id="3_0v82v"]
+
+[node name="UI_Hotel" type="CanvasLayer"]
+script = ExtResource("1_a12a2")
+
+[node name="mention_label" type="RichTextLabel" parent="."]
+offset_left = 1696.0
+offset_top = 32.0
+offset_right = 1857.0
+offset_bottom = 129.0
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0.733333, 0.407843, 1)
+theme_override_fonts/normal_font = ExtResource("2_goasj")
+theme_override_fonts/italics_font = ExtResource("3_0v82v")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+text = "<i>teste<i>"
+threaded = true
+visible_characters_behavior = 4
+text_direction = 2

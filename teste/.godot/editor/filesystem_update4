@@ -1,0 +1,8 @@
+res://UI/ui_hotel.tscn
+res://scripts/UI/UI_Hotel.gd
+res://scene/area.tscn
+res://enemy/obstacle.tscn
+res://player/player.tscn
+res://scripts/UI/mention_label.gd
+res://scripts/main_menu/Button.gd
+res://scene/main_menu.tscn

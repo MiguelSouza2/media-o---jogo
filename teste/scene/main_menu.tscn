@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://do8srhg3g2n1l"]
+
+[ext_resource type="FontFile" uid="uid://dqm0eleqjoa80" path="res://assets/TrueType (.ttf)/Kaph-Italic.ttf" id="1_4vsna"]
+[ext_resource type="Script" path="res://scripts/main_menu/Button.gd" id="2_qhvco"]
+
+[node name="Main_Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_direction = 2
+layout_mode = 0
+offset_left = 800.0
+offset_top = 480.0
+offset_right = 1193.0
+offset_bottom = 580.0
+theme_override_fonts/font = ExtResource("1_4vsna")
+theme_override_font_sizes/font_size = 30
+text = "Start game"
+script = ExtResource("2_qhvco")
+
+[connection signal="button_down" from="Button" to="Button" method="_on_button_down"]

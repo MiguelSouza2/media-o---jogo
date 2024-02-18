@@ -1,28 +1,26 @@
 extends CharacterBody2D
 
 
-const speed = 300.0
-const JUMP_VELOCITY = -400.0
-
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-
+const speed = 300.00
 
 func _physics_process(delta):
-	# Add the gravity.
-	if not is_on_floor():
-		velocity.y += gravity * delta
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction = Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * speed
-	else:
-		velocity.x = move_toward(velocity.x, 0, speed)
-
+	var direction_x = Input.get_axis("ui_left", "ui_right")
+	var direction_y = Input.get_axis("ui_up", "ui_down")
+	var input:= Vector2(direction_x, direction_y)
+	
+	position += input * speed * delta;
+	
+	
 	move_and_slide()
+
+
+func _on_hurtbox_body_entered(body):
+	if GlobalScripts.cont_mention < 4:
+		GlobalScripts.cont_mention += 1
+		GlobalScripts.mention[GlobalScripts.cont_mention]
+		print("tocou " + str(GlobalScripts.cont_mention) + " e mention " + str(GlobalScripts.mention[GlobalScripts.cont_mention]))
+	
+	pass # Replace with function body.

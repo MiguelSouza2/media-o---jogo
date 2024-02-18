@@ -1,0 +1,77 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1708272273
+icon.svg::CompressedTexture2D::4632297122657517113::1708250722::1708250841::1::::<><>::
+::res://assets/::1708271704
+hotel_tileset_1.jpg::CompressedTexture2D::8503352074929208328::1708252283::1708252350::1::::<><>::
+::res://assets/Seasonal Tilesets/::1708250722
+LICENSE.txt::TextFile::-1::1708250722::0::1::::<><>::
+::res://assets/Seasonal Tilesets/1 - Grassland/::1708250842
+Extra_plants (16 x 16).png::CompressedTexture2D::5130612564562330319::1708250722::1708250842::1::::<><>::
+Grassland_entities (16 x 16).png::CompressedTexture2D::4127500184096978351::1708250722::1708250842::1::::<><>::
+Terrain (16 x 16).png::CompressedTexture2D::324159348253629140::1708250722::1708250842::1::::<><>::
+::res://assets/Seasonal Tilesets/1 - Grassland/Background parts/::1708250841
+1 - Foreground_scenery.png::CompressedTexture2D::1204184836054066856::1708250722::1708250841::1::::<><>::
+2 - Hills.png::CompressedTexture2D::3479693632640716134::1708250722::1708250841::1::::<><>::
+3 - Cloud_cover_1.png::CompressedTexture2D::8519224958985272209::1708250722::1708250841::1::::<><>::
+4 - Cloud_cover_2.png::CompressedTexture2D::6512393603650076603::1708250722::1708250841::1::::<><>::
+5 - Sky_color.png::CompressedTexture2D::4144303184868886949::1708250722::1708250841::1::::<><>::
+_Complete_static_BG_(288 x 208).png::CompressedTexture2D::5437438598615492830::1708250722::1708250841::1::::<><>::
+::res://assets/Seasonal Tilesets/2 - Autumn Forest/::1708250842
+Autumn_entities (16 x 16).png::CompressedTexture2D::7081530246633116385::1708250722::1708250842::1::::<><>::
+Terrain (16 x 16).png::CompressedTexture2D::8699808927632124010::1708250722::1708250842::1::::<><>::
+::res://assets/Seasonal Tilesets/2 - Autumn Forest/Background parts/::1708250842
+1 - Leaf_top.png::CompressedTexture2D::7042511476188985748::1708250722::1708250842::1::::<><>::
+2 - Trees.png::CompressedTexture2D::1595238421185441213::1708250722::1708250842::1::::<><>::
+3 - Bottom_leaf_piles.png::CompressedTexture2D::5086599038000829211::1708250722::1708250842::1::::<><>::
+4 - Tree_row_BG_1.png::CompressedTexture2D::2238189778416218620::1708250722::1708250842::1::::<><>::
+5 - Tree_row_BG_2.png::CompressedTexture2D::1549656198234672022::1708250722::1708250842::1::::<><>::
+6 - Distant_trees.png::CompressedTexture2D::8826880560619218316::1708250722::1708250842::1::::<><>::
+_Complete_static_BG_(288 x 208).png::CompressedTexture2D::2321140995122959643::1708250722::1708250842::1::::<><>::
+::res://assets/Seasonal Tilesets/3 - Tropics/::1708250841
+Terrain (16 x 16).png::CompressedTexture2D::6098692147129787552::1708250722::1708250841::1::::<><>::
+Tropics_entities (16 x 16).png::CompressedTexture2D::5232680231887193441::1708250722::1708250841::1::::<><>::
+::res://assets/Seasonal Tilesets/3 - Tropics/Background parts/::1708250842
+1 - Waters_version_1.png::CompressedTexture2D::7265453285307283227::1708250722::1708250842::1::::<><>::
+2 - Waters_version_2.png::CompressedTexture2D::8942469900355871191::1708250722::1708250842::1::::<><>::
+3 - Floating_clouds.png::CompressedTexture2D::7107463047481813785::1708250722::1708250842::1::::<><>::
+4 - Background_clouds.png::CompressedTexture2D::6992583369861429584::1708250722::1708250841::1::::<><>::
+5 - Sky_color.png::CompressedTexture2D::8089131559805088609::1708250722::1708250841::1::::<><>::
+_Complete_static_BG_(288 x 208).png::CompressedTexture2D::8545584889836355088::1708250722::1708250841::1::::<><>::
+::res://assets/Seasonal Tilesets/4 - Winter World/::1708250841
+Terrain (16 x 16).png::CompressedTexture2D::7476307946033261679::1708250722::1708250841::1::::<><>::
+Winter_entities (16 x 16).png::CompressedTexture2D::5984674360601881460::1708250722::1708250841::1::::<><>::
+::res://assets/Seasonal Tilesets/4 - Winter World/Background parts/::1708250841
+1 - Snowy_foreground_area.png::CompressedTexture2D::8718691853399443203::1708250722::1708250841::1::::<><>::
+2 - Smaller_mountains.png::CompressedTexture2D::8899889392111693832::1708250722::1708250841::1::::<><>::
+3 - Big_mountain_BG.png::CompressedTexture2D::4888955973280054547::1708250722::1708250841::1::::<><>::
+_Complete_static_BG_(288 x 208).png::CompressedTexture2D::946115997755617017::1708250722::1708250841::1::::<><>::
+::res://assets/Seasonal Tilesets/5 - Misc. universal tiles/::1708250841
+Blocks (16 x 16).png::CompressedTexture2D::2738608593923562230::1708250722::1708250841::1::::<><>::
+Bubbling_Oil_frames (16 x 32).png::CompressedTexture2D::1402326610600028722::1708250722::1708250841::1::::<><>::
+Flowers (16 x 16).png::CompressedTexture2D::5409186281405750709::1708250722::1708250841::1::::<><>::
+House (112 x 96).png::CompressedTexture2D::5246353139170934365::1708250722::1708250841::1::::<><>::
+Lava_frames (16 x 32).png::CompressedTexture2D::706431955244771568::1708250722::1708250841::1::::<><>::
+Metal_Wire_fence (16 x 16).png::CompressedTexture2D::4068276280344366395::1708250722::1708250841::1::::<><>::
+Rock_shape (16 x 16).png::CompressedTexture2D::8262902411357254224::1708250722::1708250841::1::::<><>::
+Snack_machine_Bench_Trash_bin (16 x 16).png::CompressedTexture2D::6049129577004527052::1708250722::1708250841::1::::<><>::
+Water_frames (16 x 32).png::CompressedTexture2D::2226224745169207371::1708250722::1708250841::1::::<><>::
+::res://assets/TrueType (.ttf)/::1708271715
+Kaph-Italic.ttf::FontFile::8308581735006934267::1708271615::1708271715::1::::<><>::
+Kaph-Regular.ttf::FontFile::4941487590659510468::1708271615::1708271715::1::::<><>::
+::res://enemy/::1708272071
+obstacle.gd::GDScript::-1::1708257741::0::1::::<>RefCounted<>::
+obstacle.tscn::PackedScene::5544231875677357253::1708272071::0::1::::<><>::res://scripts/enemies/obstacle.gd
+::res://player/::1708272071
+player.tscn::PackedScene::5823715764637833762::1708272071::0::1::::<><>::res://scripts/player.gd
+::res://scene/::1708272071
+area.tscn::PackedScene::130680747177510478::1708272071::0::1::::<><>::uid://co8b0opcdyv75::::res://player/player.tscn<>uid://dtfc74cgukfiu::::res://assets/hotel_tileset_1.jpg<>uid://ck8wxopjnxrxl::::res://enemy/obstacle.tscn<>uid://lnyqw8k5k1tu::::res://UI/ui_hotel.tscn
+::res://scripts/::1708271202
+player.gd::GDScript::-1::1708271202::0::1::::<>CharacterBody2D<>::
+::res://scripts/enemies/::1708260741
+obstacle.gd::GDScript::-1::1708260741::0::1::::<>RigidBody2D<>::
+::res://scripts/globalscripts/::1708269452
+global_scripts.gd::GDScript::-1::1708269452::0::1::::<>Node<>::
+::res://scripts/UI/::1708270278
+UI_Hotel.gd::GDScript::-1::1708270278::0::1::::<>CanvasLayer<>::
+::res://UI/::1708272072
+ui_hotel.tscn::PackedScene::800401178337123762::1708272072::0::1::::<><>::res://scripts/UI/UI_Hotel.gd<>uid://ccnxtw6tibbp1::::res://assets/TrueType (.ttf)/Kaph-Regular.ttf<>uid://dqm0eleqjoa80::::res://assets/TrueType (.ttf)/Kaph-Italic.ttf

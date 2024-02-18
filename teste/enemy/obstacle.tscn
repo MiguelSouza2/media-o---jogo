@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://ck8wxopjnxrxl"]
+
+[ext_resource type="Script" path="res://scripts/enemies/obstacle.gd" id="1_bahqm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6o5uj"]
+size = Vector2(42.25, 39)
+
+[node name="obstacle" type="RigidBody2D"]
+collision_layer = 4
+collision_mask = 10
+gravity_scale = 0.0
+freeze = true
+script = ExtResource("1_bahqm")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(1, 0, 0, 1)
+
+[node name="TextEdit" type="TextEdit" parent="ColorRect"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 12
+text = "idosa"
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2(19.875, 19.5)
+shape = SubResource("RectangleShape2D_6o5uj")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+self_modulate = Color(0.360784, 0.360784, 0.360784, 1)
+position = Vector2(20, 20)
+target_position = Vector2(-46, 0)
+collision_mask = 3
